@@ -1,0 +1,75 @@
+.services-section{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    .services{
+         padding-bottom: 4rem;
+        //  display: flex;
+        .p3{
+            text-align: center;
+            font-size: 14px;
+            color: white;
+        }
+        h2{
+            text-align: center;
+            font-size: $h1-font-size;
+            font-weight: $font-semiblod;
+            color: $first-color-alt;
+            margin-bottom: 4rem;
+        }
+        .services-item{
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+            .services-list{
+                display: flex;
+                margin: 2rem 2rem;
+                width: 20%;
+                height: 200px;
+                background-color: hsla(250,32%,16%,.8);
+                backdrop-filter: buler(10px);
+                align-items: center;
+                border-radius: 1rem;
+                margin-bottom: 4rem;
+                padding: 0rem 1.5rem;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    transform: translatey(-15px);
+                }
+                .services-title{
+                    align-items: center;
+                    justify-content: center;
+                    h3{
+                        color: white;
+                        font-size: $h2-font-size;
+                        font-weight: $font-medium;
+                        margin-bottom: 1.9rem;
+                    }
+                    p{
+                        color: $first-color;
+                        font-size: 14px;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+                        align-items: center;
+
+                        &:hover{
+                            color: $first-color-alt;
+                            text-decoration: underline;
+                            transform: translateX(10px);
+                        }
+                        i{
+                            align-items: center;
+                            font-size: 10px;
+
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+}

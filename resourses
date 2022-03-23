@@ -1,0 +1,79 @@
+/* .container{
+
+
+header{
+    width: 100%;
+    align-items: center;
+    nav{
+        display: flex;
+        width: 100%;
+        margin-top: 1rem;
+        .logo{
+            p{
+                color: $first-color;
+                font-weight: $font-semiblod;
+            }
+        }
+        .nav-item{
+            display: flex;
+            align-items: center;
+            position: fixed;
+            bottom: 8vh;
+            width: 70%;
+            background-color: hsla(250,32%,16%,.8);
+            backdrop-filter: buler(10px);
+            align-items: center;
+            margin-left: 4rem;
+            // padding: 0rem 0rem;
+            border-radius: 3rem;
+
+            .nav-list{
+                display: flex;
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                border-radius: 2rem;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: center;
+                    border-radius: 2rem;
+                    padding: 1rem 2.25rem;
+                    li{
+                    // background: black;
+                        a{
+                            color: $text-color;
+                            font-size: 1.2rem;
+                            font-weight: $font-semiblod;
+                            // background: white;
+                            padding: .5rem .7rem;
+                            margin-left: 10px;
+                            border-radius: 50%;
+                            transition: .5s ease-in;
+                            &:hover{
+                                background:linear-gradient(180deg,
+                                hsla(250,66%,75,1),
+                                hsla(250,66%,75%,.2));   
+                                transition: all 3s ease-in-out;
+
+                            }
+
+                        }
+                     
+                        .active{
+                            background:linear-gradient(180deg,
+                                        hsla(250,66%,75,1),
+                                        hsla(250,66%,75%,.2));
+
+                        }
+
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+} */

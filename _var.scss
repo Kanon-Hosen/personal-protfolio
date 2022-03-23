@@ -1,0 +1,33 @@
+$first-color: hsl(250,66%,75%);
+$first-color-alt: hsl(250,66%,71%);
+$title-color:hsl(219,15%,95%);
+$text-color:hsl(219,8%,75%);
+$text-color-light:hsl(219,15%,95%);
+$body-color: hsl(219,48%,8%);
+$container-color:hsl(219,32%,12%);
+// ----fonts----
+$biggest-font-size:1.75rem;
+$h1-font-size:1.5rem;
+$h2-font-size:1.25rem;
+$h3-font-size:1rem;
+$normal-font-size:.938rem;
+$small-font-size:.813rem;
+$smaller-font-size:.75rem;
+$tiny-font-size:.625rem;
+$font-medium:500;
+$font-semiblod:600;
+$z-tooltip:10;
+$z-fixed:100;
+$z-mixed:1000;
+
+
+@media  screen and(min-width:968px) {
+    $biggest-font-size:2.5rem;
+    $h1-font-size:2.25rem;
+    $h2-font-size:1.5rem;
+    $h3-font-size:1.25rem;
+    $normal-font-size:1rem;
+    $small-font-size:.875rem;
+    $smaller-font-size:.813rem; 
+    
+}
